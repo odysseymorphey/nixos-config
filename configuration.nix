@@ -104,7 +104,7 @@
 
   environment.systemPackages = with pkgs; [
     git neovim wget curl
-    gnome.gnome-tweaks gnomeExtensions.dash-to-dock
+    pkgs.gnome-tweaks gnomeExtensions.dash-to-dock
     gnomeExtensions.appindicator gnomeExtensions.blur-my-shell
     gnomeExtensions.user-themes
     xdg-utils
