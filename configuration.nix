@@ -17,9 +17,9 @@
 
   users.users.nixos = {
     isNormalUser = true;
-    description = "NixOS User";
+    description = "Odyssey Morphey";
     extraGroups = [ "wheel" "networkmanager" "audio" "video" "input" ];
-    initialPassword = "temp123"; # смени после установки
+    initialPassword = "1111";
   };
 
   nix.package = pkgs.nixVersions.stable;
