@@ -27,6 +27,8 @@
       ];
     };
 
+    environment.shells = [ pkgs.zsh ];
+
     formatter = (pkgs: pkgs.alejandra);
     devShells = (pkgs: {
       default = pkgs.mkShell {

@@ -11,7 +11,6 @@
   programs.zsh = {
     enable = true;
     enableCompletion = true;
-    autosuggestions.enable = true;
     syntaxHighlighting.enable = true;
 
     oh-my-zsh = {
@@ -20,6 +19,4 @@
       plugins = [ "git" "z" "sudo" "history" ];
     };
   };
-
-  programs.zsh.loginShell = true;
 }
