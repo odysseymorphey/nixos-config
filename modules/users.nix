@@ -1,8 +1,7 @@
-{ pkgs, ... }: {
+{ ... }: {
   users.users.nixos = {
     isNormalUser = true;
     description = "Odyssey Morphey";
-    shell = pkgs.zsh;
     extraGroups = [
       "wheel"
       "networkmanager"
