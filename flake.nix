@@ -15,7 +15,7 @@
     nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
       inherit system;
       modules = [
-        ./hosts/laptop/hardware-confiduration.nix
+        ./hosts/laptop/hardware-configuration.nix
         ./hosts/laptop/configuration.nix
 
         home-manager.nixosModules.home-manager
