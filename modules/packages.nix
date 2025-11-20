@@ -10,7 +10,7 @@
     zip unzip p7zip
     vscode
     go gopls delve
-    docker-compose vagrant
+    docker-compose vagrant rancher-desktop
     google-chrome
     hiddify-app
     postman
