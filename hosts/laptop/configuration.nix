@@ -13,7 +13,6 @@
     ../../modules/filesystems-btrfs.nix
     ../../modules/snapper.nix
     ../../modules/services.nix
-    ../../modules/portainer.nix
     ../../modules/packages.nix
     ../../modules/security.nix
   ];

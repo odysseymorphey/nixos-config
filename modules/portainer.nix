@@ -1,14 +1,14 @@
 { ... }: {
-  systemd.tmpFiles.rules = {
+  systemd.tmpfiles.rules = [
     "d /var/lib/portainer 0755 root root"
-  };
+  ];
 
   virtualisation.oci-containers = {
     backend = "docker";
 
-    container.portainer = {
+    containers.portainer = {
       image = "portainer/portainer-ce:latest";
-      autostart = true;
+      autoStart = true;
 
       ports = [
         "9000:9000"
@@ -22,6 +22,6 @@
       extraOptions = [
         "--restart=always"
       ];
-    }
+    };
   };
 }
