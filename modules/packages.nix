@@ -12,7 +12,7 @@
     go gopls delve
     docker-compose vagrant
     google-chrome
-    hiddify-app
     postman
+    amnezia-vpn
   ];
 }
